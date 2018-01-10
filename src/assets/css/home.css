@@ -1,0 +1,34 @@
+.nav-box{background:#eff4f8;
+         padding: 0 300px;        
+}
+.nav{overflow: hidden;
+     width: 100%;
+}
+.nav li{float: left;
+        padding: 30px;
+        cursor: pointer;
+        width: 150px;
+        box-sizing: border-box;
+       
+}
+.nav li a{
+	text-align: center;
+	text-decoration: none;
+}
+.center{text-align: center;
+        font-size: 50px;
+        position: absolute;
+        top: 100px;
+        width: 100%;
+       
+}
+/*router-link激活情况下的样式（全局）*/
+.is-active{
+	background-color: #aed;
+}
+/*router-link激活情况下的样式（局部）*/
+.about-active{
+	background-color: #f1c303;
+}
+/*底部footerd的样式*/
+.footer{position: absolute;width: 100%;top:900px;}
